@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home333</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <h1>头条</h1>
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'App'
+}
+</script>
 
 <style lang="less">
 #app {
